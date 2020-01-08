@@ -8,12 +8,11 @@ Performance Lab 1
 
 int main(void)
 {
-	int years;
-	float loanAmount;
-	double interestRate;
-	char lendingCode;
+	int years = 10;
+	float loanAmount = 21000;
+	double interestRate = 3.987654321;
+	char lendingCode = 'C';
 
-	
 	printf("Your integer is %d \n", years);
 	printf("Your integer is %d \n", sizeof(years));
 
